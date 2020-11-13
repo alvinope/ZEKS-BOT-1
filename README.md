@@ -148,3 +148,6 @@ Fix Stuck on linux, install google chrome stable:
 - [YogaSakti](https://github.com/YogaSakti/imageToSticker)
 - [MhankBarBar](https://github.com/MhankBarBar/whatsapp-bot)
 - [ArugaZ](https://github.com/ArugaZ)
+- ELIOS
+- HABIB
+- USER BOT YANG TELAH MENDUKUNG
