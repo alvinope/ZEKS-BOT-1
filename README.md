@@ -8,8 +8,8 @@ This project require NodeJS v12.
 Clone this project
 
 ```bash
-> git clone https://github.com/ArugaZ/whatsapp-bot.git
-> cd whatsapp-bot
+> https://github.com/zeksteam/ZEKS-BOT
+> cd zeks-bot
 ```
 
 Install the dependencies:
