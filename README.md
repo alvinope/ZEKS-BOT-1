@@ -9,7 +9,7 @@ Clone this project
 
 ```bash
 > https://github.com/zeksteam/ZEKS-BOT
-> cd zeks-bot
+> cd ZEKS-BOT-main
 ```
 
 Install the dependencies:
