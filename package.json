@@ -6,18 +6,18 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "ArugaZ",
+  "author": "zeksteam",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ArugaZ/whatsapp-bot.git"
+    "url": "https://github.com/zeksteam/ZEKS-BOT"
   },
   "bugs": {
-    "url": "https://github.com/ArugaZ/whatsapp-bot/issues"
+    "url": "https://github.com/zeksteam/ZEKS-BOT/issues"
   },
-  "homepage": "https://github.com/ArugaZ/whatsapp-bot",
+  "homepage": "https://github.com/zeksteam/ZEKS-BOT",
   "license": "ISC",
   "dependencies": {
-    "@open-wa/wa-automate": "^3.0.14",
+    "@open-wa/wa-automate": "^3.1.0",
     "axios": "^0.21.0",
     "chalk": "^4.1.0",
     "cheerio": "^1.0.0-rc.3",
