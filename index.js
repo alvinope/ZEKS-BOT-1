@@ -9,7 +9,7 @@ const start = (aruga = new Client()) => {
     console.log(color(figlet.textSync('ZEKS TEAM', { font: 'Ghost', horizontalLayout: 'default' })))
     console.log(color(figlet.textSync('----------------', { horizontalLayout: 'default' })))
     console.log(color('[DEV]'), color('VinZ', 'yellow'))
-    console.log(color('[~>>]'), color('BOT Started!', 'green'))
+    console.log(color('[~>>]'), color('BOT Aktif! Jangan Lupa Istirahat :D', 'green'))
 
     // Mempertahankan sesi agar tetap nyala
     aruga.onStateChanged((state) => {
@@ -27,15 +27,8 @@ const start = (aruga = new Client()) => {
 	      aruga.deleteChat(chat.id)
 	  }) 
 	} else {
-	// kondisi ketika batas member group belum tercapai, ubah di file settings/setting.json
-	    if (chat.groupMetadata.participants.length < memberLimit) {
-	    await aruga.sendText(chat.id, `Sorry,Member Nya Kurang dari 10`).then(() => {
-	      aruga.leaveGroup(chat.id)
-	      aruga.deleteChat(chat.id)
-	    })
-	    } else {
         await aruga.simulateTyping(chat.id, true).then(async () => {
-          await aruga.sendText(chat.id, `Hai minna~, Im Aruga BOT. To find out the commands on this bot type ${prefix}menu`)
+          await aruga.sendText(chat.id, `Hai minna~, Im ZEKS BOT. To find out the commands on this bot type ${prefix}menu`)
         })
 	    }
 	}
